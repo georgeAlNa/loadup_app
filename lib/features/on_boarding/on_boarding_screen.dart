@@ -21,7 +21,7 @@ class OnBoardingScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(AppImages.logoImage),
+            Image.asset(AppImages.logoImage, height: 500.h, width: 320.w),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
